@@ -92,7 +92,7 @@ Autonomous Runtime
 
 ## System Architecture
 
-![AURA Architecture](docs/architecture.png)
+![AURA Architecture](docs/Architecture.png)
 
 ## Technology Stack
 
