@@ -1,0 +1,132 @@
+[
+    {
+        "workflow": "docker",
+        "task": "analyze project",
+        "result": "\n# \ud83c\udf10 Browser Agent Activated\n\n## Query\n\u27a1\ufe0f analyze project\n\n---\n\n## Memory Context\nThe user has indicated they are a software engineer.\nThe user, a software engineer, is currently engaged in a drone AI project. Aura has offered support for various aspects, including specific AI algorithms (e.g., computer vision for navigation, reinforcement learning for control), hardware and software integration challenges, choosing development frameworks or libraries, and project planning or architectural design.\nThe user is working on a drone AI project, leveraging YOLOv8 for real-time object detection and FastAPI to build high-performance APIs for serving inference, managing drone commands, and system integration.\n\n---\n\n## Collaboration Context\nWorkflowExecutionAgent: Executing: analyze project\nBrowserAgent: Received task: analyze project\n\n---\n\n\u2705 Chrome browser launched successfully.\n"
+    },
+    {
+        "workflow": "docker",
+        "task": "create Dockerfile",
+        "result": "\nDocker Plugin Executed\n\nTask:\ncreate Dockerfile\n"
+    },
+    {
+        "workflow": "docker",
+        "task": "verify deployment structure",
+        "result": "\nNo suitable plugin found.\n\nAvailable plugins:\n- github_plugin\n- docker_plugin\n- browser_plugin\n"
+    },
+    {
+        "workflow": "docker",
+        "task": "analyze project",
+        "result": "\nProject Summary\n\nDirectories: 45\nFiles: 267\n\nTop File Types:\n\n.py: 144\n.pyc: 101\n.bin: 12\n.json: 5\n.txt: 2\n.sql: 1\n.sqlite3: 1\n.png: 1"
+    },
+    {
+        "workflow": "docker",
+        "task": "create Dockerfile",
+        "result": "\nFilesystem task not recognized.\n"
+    },
+    {
+        "workflow": "docker",
+        "task": "verify deployment structure",
+        "result": "\nProject Summary\n\nDirectories: 45\nFiles: 267\n\nTop File Types:\n\n.py: 144\n.pyc: 101\n.bin: 12\n.json: 5\n.txt: 2\n.sql: 1\n.sqlite3: 1\n.png: 1"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "analyze project",
+        "result": "\nProject Summary\n\nDirectories: 45\nFiles: 275\n\nTop File Types:\n\n.py: 148\n.pyc: 105\n.bin: 12\n.json: 5\n.txt: 2\n.sql: 1\n.sqlite3: 1\n.png: 1"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "find function",
+        "result": ".\\main.py\n.\\agents\\async_executor.py\n.\\agents\\autonomous_executor.py\n.\\agents\\autonomous_task_agent.py\n.\\agents\\browser_agent.py\n.\\agents\\browser_control_agent.py\n.\\agents\\codebase_agent.py\n.\\agents\\code_generation_agent.py\n.\\agents\\coding_agent.py\n.\\agents\\cognitive_agent.py\n.\\agents\\computer_control_agent.py\n.\\agents\\desktop_action_agent.py\n.\\agents\\desktop_agent.py\n.\\agents\\desktop_automation_agent.py\n.\\agents\\dynamic_workflow_agent.py\n.\\agents\\evolution_agent.py\n.\\agents\\execution_agent.py\n.\\agents\\filesystem_agent.py\n.\\agents\\file_editor_agent.py\n.\\agents\\knowledge_agent.py\n.\\agents\\multi_file_editor_agent.py\n.\\agents\\orchestrator.py\n.\\agents\\planner_agent.py\n.\\agents\\project_agent.py\n.\\agents\\project_modification_agent.py\n.\\agents\\project_modification_agent_v2.py\n.\\agents\\project_refactor_agent.py\n.\\agents\\reflection_agent.py\n.\\agents\\root_agent.py\n.\\agents\\screen_understanding_agent.py\n.\\agents\\screen_vision_agent.py\n.\\agents\\self_improvement_agent.py\n.\\agents\\shared_memory_agent.py\n.\\agents\\task_agent.py\n.\\agents\\task_classifier.py\n.\\agents\\terminal_agent.py\n.\\agents\\tool_creator_agent.py\n.\\agents\\tool_manager_agent.py\n.\\agents\\vision_analysis_agent.py\n.\\agents\\workflow_agent.py\n.\\agents\\workflow_execution_agent.py\n.\\api\\chat.py\n.\\api\\voice.py\n.\\brain\\brain_manager.py\n.\\brain\\knowledge_base.py\n.\\brain\\learning_engine.py\n.\\browser\\playwright_controller.py\n.\\cognition\\autonomous_loop.py\n.\\cognition\\cognitive_state.py\n.\\cognition\\decision_engine.py\n.\\cognition\\goal_manager.py\n.\\cognition\\long_term_goals.py\n.\\cognition\\objective_tracker.py\n.\\cognition\\reasoning_engine.py\n.\\cognition\\reflection_loop.py\n.\\evolution\\failure_detector.py\n.\\evolution\\prompt_evolution.py\n.\\evolution\\self_optimizer.py\n.\\evolution\\strategy_evolution.py\n.\\history\\execution_history.py\n.\\history\\history_manager.py\n.\\history\\performance_analyzer.py\n.\\llm\\gemini_client.py\n.\\llm\\llm_router.py\n.\\llm\\ollama_client.py\n.\\llm\\request_queue.py\n.\\memory\\conversation_memory.py\n.\\memory\\memory_category.py\n.\\memory\\memory_filter.py\n.\\memory\\memory_manager.py\n.\\memory\\memory_summarizer.py\n.\\memory\\semantic_search.py\n.\\memory\\shared_memory.py\n.\\memory\\vector_store.py\n.\\multi_agent\\agent_bus.py\n.\\multi_agent\\collaboration_manager.py\n.\\multi_agent\\shared_memory.py\n.\\plugins\\browser_plugin.py\n.\\plugins\\docker_plugin.py\n.\\plugins\\github_plugin.py\n.\\runtime\\plugin_loader.py\n.\\runtime\\sandbox.py\n.\\runtime\\tool_registry.py\n.\\tools\\tool_builder.py\n.\\tools\\tool_executor.py\n.\\tools\\validator.py\n.\\utils\\retry_handler.py\n.\\voice\\microphone_stream.py\n.\\voice\\speech_output.py\n.\\voice\\voice_assistant.py\n.\\voice\\wake_word.py\n.\\voice\\whisper_input.py\n.\\workflows\\task_logger.py\n.\\workflows\\workflow_engine.py\n.\\workflows\\workflow_learning.py\n.\\workflows\\workflow_optimizer.py"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "create Dockerfile",
+        "result": "\nFilesystem task not recognized.\n"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "verify deployment structure",
+        "result": "\nProject Summary\n\nDirectories: 45\nFiles: 275\n\nTop File Types:\n\n.py: 148\n.pyc: 105\n.bin: 12\n.json: 5\n.txt: 2\n.sql: 1\n.sqlite3: 1\n.png: 1"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "analyze project",
+        "result": "\nProject Summary\n\nDirectories: 45\nFiles: 277\n\nTop File Types:\n\n.py: 149\n.pyc: 106\n.bin: 12\n.json: 5\n.txt: 2\n.sql: 1\n.sqlite3: 1\n.png: 1"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "find function",
+        "result": ".\\main.py\n.\\agents\\async_executor.py\n.\\agents\\autonomous_executor.py\n.\\agents\\autonomous_task_agent.py\n.\\agents\\browser_agent.py\n.\\agents\\browser_control_agent.py\n.\\agents\\codebase_agent.py\n.\\agents\\code_generation_agent.py\n.\\agents\\coding_agent.py\n.\\agents\\cognitive_agent.py\n.\\agents\\computer_control_agent.py\n.\\agents\\desktop_action_agent.py\n.\\agents\\desktop_agent.py\n.\\agents\\desktop_automation_agent.py\n.\\agents\\dynamic_workflow_agent.py\n.\\agents\\evolution_agent.py\n.\\agents\\execution_agent.py\n.\\agents\\filesystem_agent.py\n.\\agents\\file_editor_agent.py\n.\\agents\\knowledge_agent.py\n.\\agents\\multi_file_editor_agent.py\n.\\agents\\orchestrator.py\n.\\agents\\planner_agent.py\n.\\agents\\project_agent.py\n.\\agents\\project_modification_agent.py\n.\\agents\\project_modification_agent_v2.py\n.\\agents\\project_refactor_agent.py\n.\\agents\\reflection_agent.py\n.\\agents\\reflection_verification_agent.py\n.\\agents\\root_agent.py\n.\\agents\\screen_understanding_agent.py\n.\\agents\\screen_vision_agent.py\n.\\agents\\self_improvement_agent.py\n.\\agents\\shared_memory_agent.py\n.\\agents\\task_agent.py\n.\\agents\\task_classifier.py\n.\\agents\\terminal_agent.py\n.\\agents\\tool_creator_agent.py\n.\\agents\\tool_manager_agent.py\n.\\agents\\vision_analysis_agent.py\n.\\agents\\workflow_agent.py\n.\\agents\\workflow_execution_agent.py\n.\\api\\chat.py\n.\\api\\voice.py\n.\\brain\\brain_manager.py\n.\\brain\\knowledge_base.py\n.\\brain\\learning_engine.py\n.\\browser\\playwright_controller.py\n.\\cognition\\autonomous_loop.py\n.\\cognition\\cognitive_state.py\n.\\cognition\\decision_engine.py\n.\\cognition\\goal_manager.py\n.\\cognition\\long_term_goals.py\n.\\cognition\\objective_tracker.py\n.\\cognition\\reasoning_engine.py\n.\\cognition\\reflection_loop.py\n.\\evolution\\failure_detector.py\n.\\evolution\\prompt_evolution.py\n.\\evolution\\self_optimizer.py\n.\\evolution\\strategy_evolution.py\n.\\history\\execution_history.py\n.\\history\\history_manager.py\n.\\history\\performance_analyzer.py\n.\\llm\\gemini_client.py\n.\\llm\\llm_router.py\n.\\llm\\ollama_client.py\n.\\llm\\request_queue.py\n.\\memory\\conversation_memory.py\n.\\memory\\memory_category.py\n.\\memory\\memory_filter.py\n.\\memory\\memory_manager.py\n.\\memory\\memory_summarizer.py\n.\\memory\\semantic_search.py\n.\\memory\\shared_memory.py\n.\\memory\\vector_store.py\n.\\multi_agent\\agent_bus.py\n.\\multi_agent\\collaboration_manager.py\n.\\multi_agent\\shared_memory.py\n.\\plugins\\browser_plugin.py\n.\\plugins\\docker_plugin.py\n.\\plugins\\github_plugin.py\n.\\runtime\\plugin_loader.py\n.\\runtime\\sandbox.py\n.\\runtime\\tool_registry.py\n.\\tools\\tool_builder.py\n.\\tools\\tool_executor.py\n.\\tools\\validator.py\n.\\utils\\retry_handler.py\n.\\voice\\microphone_stream.py\n.\\voice\\speech_output.py\n.\\voice\\voice_assistant.py\n.\\voice\\wake_word.py\n.\\voice\\whisper_input.py\n.\\workflows\\task_logger.py\n.\\workflows\\workflow_engine.py\n.\\workflows\\workflow_learning.py\n.\\workflows\\workflow_optimizer.py"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "create Dockerfile",
+        "result": "\nFilesystem task not recognized.\n"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "verify deployment structure",
+        "result": "\nProject Summary\n\nDirectories: 45\nFiles: 277\n\nTop File Types:\n\n.py: 149\n.pyc: 106\n.bin: 12\n.json: 5\n.txt: 2\n.sql: 1\n.sqlite3: 1\n.png: 1"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "analyze project",
+        "result": "\nProject Summary\n\nDirectories: 45\nFiles: 277\n\nTop File Types:\n\n.py: 149\n.pyc: 106\n.bin: 12\n.json: 5\n.txt: 2\n.sql: 1\n.sqlite3: 1\n.png: 1"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "find function",
+        "result": ".\\main.py\n.\\agents\\async_executor.py\n.\\agents\\autonomous_executor.py\n.\\agents\\autonomous_task_agent.py\n.\\agents\\browser_agent.py\n.\\agents\\browser_control_agent.py\n.\\agents\\codebase_agent.py\n.\\agents\\code_generation_agent.py\n.\\agents\\coding_agent.py\n.\\agents\\cognitive_agent.py\n.\\agents\\computer_control_agent.py\n.\\agents\\desktop_action_agent.py\n.\\agents\\desktop_agent.py\n.\\agents\\desktop_automation_agent.py\n.\\agents\\dynamic_workflow_agent.py\n.\\agents\\evolution_agent.py\n.\\agents\\execution_agent.py\n.\\agents\\filesystem_agent.py\n.\\agents\\file_editor_agent.py\n.\\agents\\knowledge_agent.py\n.\\agents\\multi_file_editor_agent.py\n.\\agents\\orchestrator.py\n.\\agents\\planner_agent.py\n.\\agents\\project_agent.py\n.\\agents\\project_modification_agent.py\n.\\agents\\project_modification_agent_v2.py\n.\\agents\\project_refactor_agent.py\n.\\agents\\reflection_agent.py\n.\\agents\\reflection_verification_agent.py\n.\\agents\\root_agent.py\n.\\agents\\screen_understanding_agent.py\n.\\agents\\screen_vision_agent.py\n.\\agents\\self_improvement_agent.py\n.\\agents\\shared_memory_agent.py\n.\\agents\\task_agent.py\n.\\agents\\task_classifier.py\n.\\agents\\terminal_agent.py\n.\\agents\\tool_creator_agent.py\n.\\agents\\tool_manager_agent.py\n.\\agents\\vision_analysis_agent.py\n.\\agents\\workflow_agent.py\n.\\agents\\workflow_execution_agent.py\n.\\api\\chat.py\n.\\api\\voice.py\n.\\brain\\brain_manager.py\n.\\brain\\knowledge_base.py\n.\\brain\\learning_engine.py\n.\\browser\\playwright_controller.py\n.\\cognition\\autonomous_loop.py\n.\\cognition\\cognitive_state.py\n.\\cognition\\decision_engine.py\n.\\cognition\\goal_manager.py\n.\\cognition\\long_term_goals.py\n.\\cognition\\objective_tracker.py\n.\\cognition\\reasoning_engine.py\n.\\cognition\\reflection_loop.py\n.\\evolution\\failure_detector.py\n.\\evolution\\prompt_evolution.py\n.\\evolution\\self_optimizer.py\n.\\evolution\\strategy_evolution.py\n.\\history\\execution_history.py\n.\\history\\history_manager.py\n.\\history\\performance_analyzer.py\n.\\llm\\gemini_client.py\n.\\llm\\llm_router.py\n.\\llm\\ollama_client.py\n.\\llm\\request_queue.py\n.\\memory\\conversation_memory.py\n.\\memory\\memory_category.py\n.\\memory\\memory_filter.py\n.\\memory\\memory_manager.py\n.\\memory\\memory_summarizer.py\n.\\memory\\semantic_search.py\n.\\memory\\shared_memory.py\n.\\memory\\vector_store.py\n.\\multi_agent\\agent_bus.py\n.\\multi_agent\\collaboration_manager.py\n.\\multi_agent\\shared_memory.py\n.\\plugins\\browser_plugin.py\n.\\plugins\\docker_plugin.py\n.\\plugins\\github_plugin.py\n.\\runtime\\plugin_loader.py\n.\\runtime\\sandbox.py\n.\\runtime\\tool_registry.py\n.\\tools\\tool_builder.py\n.\\tools\\tool_executor.py\n.\\tools\\validator.py\n.\\utils\\retry_handler.py\n.\\voice\\microphone_stream.py\n.\\voice\\speech_output.py\n.\\voice\\voice_assistant.py\n.\\voice\\wake_word.py\n.\\voice\\whisper_input.py\n.\\workflows\\task_logger.py\n.\\workflows\\workflow_engine.py\n.\\workflows\\workflow_learning.py\n.\\workflows\\workflow_optimizer.py"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "create Dockerfile",
+        "result": "\nFilesystem task not recognized.\n"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "verify deployment structure",
+        "result": "\nProject Summary\n\nDirectories: 45\nFiles: 277\n\nTop File Types:\n\n.py: 149\n.pyc: 106\n.bin: 12\n.json: 5\n.txt: 2\n.sql: 1\n.sqlite3: 1\n.png: 1"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "analyze project",
+        "result": "\nProject Summary\n\nDirectories: 45\nFiles: 282\n\nTop File Types:\n\n.py: 151\n.pyc: 108\n.bin: 12\n.json: 5\n.txt: 2\n.png: 2\n.sql: 1\n.sqlite3: 1"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "find function",
+        "result": ".\\main.py\n.\\agents\\async_executor.py\n.\\agents\\autonomous_executor.py\n.\\agents\\autonomous_task_agent.py\n.\\agents\\browser_agent.py\n.\\agents\\browser_control_agent.py\n.\\agents\\codebase_agent.py\n.\\agents\\code_generation_agent.py\n.\\agents\\coding_agent.py\n.\\agents\\cognitive_agent.py\n.\\agents\\computer_control_agent.py\n.\\agents\\desktop_action_agent.py\n.\\agents\\desktop_agent.py\n.\\agents\\desktop_automation_agent.py\n.\\agents\\dynamic_workflow_agent.py\n.\\agents\\evolution_agent.py\n.\\agents\\execution_agent.py\n.\\agents\\filesystem_agent.py\n.\\agents\\file_editor_agent.py\n.\\agents\\knowledge_agent.py\n.\\agents\\multi_file_editor_agent.py\n.\\agents\\orchestrator.py\n.\\agents\\planner_agent.py\n.\\agents\\project_agent.py\n.\\agents\\project_modification_agent.py\n.\\agents\\project_modification_agent_v2.py\n.\\agents\\project_refactor_agent.py\n.\\agents\\reflection_agent.py\n.\\agents\\reflection_verification_agent.py\n.\\agents\\root_agent.py\n.\\agents\\screen_understanding_agent.py\n.\\agents\\screen_vision_agent.py\n.\\agents\\self_improvement_agent.py\n.\\agents\\self_repair_agent.py\n.\\agents\\shared_memory_agent.py\n.\\agents\\task_agent.py\n.\\agents\\task_classifier.py\n.\\agents\\terminal_agent.py\n.\\agents\\tool_creator_agent.py\n.\\agents\\tool_manager_agent.py\n.\\agents\\vision_analysis_agent.py\n.\\agents\\workflow_agent.py\n.\\agents\\workflow_execution_agent.py\n.\\api\\chat.py\n.\\api\\voice.py\n.\\brain\\brain_manager.py\n.\\brain\\knowledge_base.py\n.\\brain\\learning_engine.py\n.\\browser\\playwright_controller.py\n.\\cognition\\autonomous_loop.py\n.\\cognition\\cognitive_state.py\n.\\cognition\\decision_engine.py\n.\\cognition\\goal_manager.py\n.\\cognition\\long_term_goals.py\n.\\cognition\\objective_tracker.py\n.\\cognition\\reasoning_engine.py\n.\\cognition\\reflection_loop.py\n.\\evolution\\failure_detector.py\n.\\evolution\\prompt_evolution.py\n.\\evolution\\self_optimizer.py\n.\\evolution\\strategy_evolution.py\n.\\history\\execution_history.py\n.\\history\\history_manager.py\n.\\history\\performance_analyzer.py\n.\\llm\\gemini_client.py\n.\\llm\\llm_router.py\n.\\llm\\ollama_client.py\n.\\llm\\request_queue.py\n.\\llm\\vision_client.py\n.\\memory\\conversation_memory.py\n.\\memory\\memory_category.py\n.\\memory\\memory_filter.py\n.\\memory\\memory_manager.py\n.\\memory\\memory_summarizer.py\n.\\memory\\semantic_search.py\n.\\memory\\shared_memory.py\n.\\memory\\vector_store.py\n.\\multi_agent\\agent_bus.py\n.\\multi_agent\\collaboration_manager.py\n.\\multi_agent\\shared_memory.py\n.\\plugins\\browser_plugin.py\n.\\plugins\\docker_plugin.py\n.\\plugins\\github_plugin.py\n.\\runtime\\plugin_loader.py\n.\\runtime\\sandbox.py\n.\\runtime\\tool_registry.py\n.\\tools\\tool_builder.py\n.\\tools\\tool_executor.py\n.\\tools\\validator.py\n.\\utils\\retry_handler.py\n.\\voice\\microphone_stream.py\n.\\voice\\speech_output.py\n.\\voice\\voice_assistant.py\n.\\voice\\wake_word.py\n.\\voice\\whisper_input.py\n.\\workflows\\task_logger.py\n.\\workflows\\workflow_engine.py\n.\\workflows\\workflow_learning.py\n.\\workflows\\workflow_optimizer.py"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "create Dockerfile",
+        "result": "\n        Dockerfile created.\n        "
+    },
+    {
+        "workflow": "dynamic",
+        "task": "verify deployment structure",
+        "result": "\nProject Summary\n\nDirectories: 45\nFiles: 283\n\nTop File Types:\n\n.py: 151\n.pyc: 108\n.bin: 12\n.json: 5\n.txt: 2\n.png: 2\n.sql: 1\n.sqlite3: 1"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "analyze project",
+        "result": "\nProject Summary\n\nDirectories: 45\nFiles: 283\n\nTop File Types:\n\n.py: 151\n.pyc: 108\n.bin: 12\n.json: 5\n.txt: 2\n.png: 2\n.sql: 1\n.sqlite3: 1"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "find function",
+        "result": ".\\main.py\n.\\agents\\async_executor.py\n.\\agents\\autonomous_executor.py\n.\\agents\\autonomous_task_agent.py\n.\\agents\\browser_agent.py\n.\\agents\\browser_control_agent.py\n.\\agents\\codebase_agent.py\n.\\agents\\code_generation_agent.py\n.\\agents\\coding_agent.py\n.\\agents\\cognitive_agent.py\n.\\agents\\computer_control_agent.py\n.\\agents\\desktop_action_agent.py\n.\\agents\\desktop_agent.py\n.\\agents\\desktop_automation_agent.py\n.\\agents\\dynamic_workflow_agent.py\n.\\agents\\evolution_agent.py\n.\\agents\\execution_agent.py\n.\\agents\\filesystem_agent.py\n.\\agents\\file_editor_agent.py\n.\\agents\\knowledge_agent.py\n.\\agents\\multi_file_editor_agent.py\n.\\agents\\orchestrator.py\n.\\agents\\planner_agent.py\n.\\agents\\project_agent.py\n.\\agents\\project_modification_agent.py\n.\\agents\\project_modification_agent_v2.py\n.\\agents\\project_refactor_agent.py\n.\\agents\\reflection_agent.py\n.\\agents\\reflection_verification_agent.py\n.\\agents\\root_agent.py\n.\\agents\\screen_understanding_agent.py\n.\\agents\\screen_vision_agent.py\n.\\agents\\self_improvement_agent.py\n.\\agents\\self_repair_agent.py\n.\\agents\\shared_memory_agent.py\n.\\agents\\task_agent.py\n.\\agents\\task_classifier.py\n.\\agents\\terminal_agent.py\n.\\agents\\tool_creator_agent.py\n.\\agents\\tool_manager_agent.py\n.\\agents\\vision_analysis_agent.py\n.\\agents\\workflow_agent.py\n.\\agents\\workflow_execution_agent.py\n.\\api\\chat.py\n.\\api\\voice.py\n.\\brain\\brain_manager.py\n.\\brain\\knowledge_base.py\n.\\brain\\learning_engine.py\n.\\browser\\playwright_controller.py\n.\\cognition\\autonomous_loop.py\n.\\cognition\\cognitive_state.py\n.\\cognition\\decision_engine.py\n.\\cognition\\goal_manager.py\n.\\cognition\\long_term_goals.py\n.\\cognition\\objective_tracker.py\n.\\cognition\\reasoning_engine.py\n.\\cognition\\reflection_loop.py\n.\\evolution\\failure_detector.py\n.\\evolution\\prompt_evolution.py\n.\\evolution\\self_optimizer.py\n.\\evolution\\strategy_evolution.py\n.\\history\\execution_history.py\n.\\history\\history_manager.py\n.\\history\\performance_analyzer.py\n.\\llm\\gemini_client.py\n.\\llm\\llm_router.py\n.\\llm\\ollama_client.py\n.\\llm\\request_queue.py\n.\\llm\\vision_client.py\n.\\memory\\conversation_memory.py\n.\\memory\\memory_category.py\n.\\memory\\memory_filter.py\n.\\memory\\memory_manager.py\n.\\memory\\memory_summarizer.py\n.\\memory\\semantic_search.py\n.\\memory\\shared_memory.py\n.\\memory\\vector_store.py\n.\\multi_agent\\agent_bus.py\n.\\multi_agent\\collaboration_manager.py\n.\\multi_agent\\shared_memory.py\n.\\plugins\\browser_plugin.py\n.\\plugins\\docker_plugin.py\n.\\plugins\\github_plugin.py\n.\\runtime\\plugin_loader.py\n.\\runtime\\sandbox.py\n.\\runtime\\tool_registry.py\n.\\tools\\tool_builder.py\n.\\tools\\tool_executor.py\n.\\tools\\validator.py\n.\\utils\\retry_handler.py\n.\\voice\\microphone_stream.py\n.\\voice\\speech_output.py\n.\\voice\\voice_assistant.py\n.\\voice\\wake_word.py\n.\\voice\\whisper_input.py\n.\\workflows\\task_logger.py\n.\\workflows\\workflow_engine.py\n.\\workflows\\workflow_learning.py\n.\\workflows\\workflow_optimizer.py"
+    },
+    {
+        "workflow": "dynamic",
+        "task": "create Dockerfile",
+        "result": "\n        Dockerfile created.\n        "
+    },
+    {
+        "workflow": "dynamic",
+        "task": "verify deployment structure",
+        "result": "\nProject Summary\n\nDirectories: 45\nFiles: 283\n\nTop File Types:\n\n.py: 151\n.pyc: 108\n.bin: 12\n.json: 5\n.txt: 2\n.png: 2\n.sql: 1\n.sqlite3: 1"
+    }
+]

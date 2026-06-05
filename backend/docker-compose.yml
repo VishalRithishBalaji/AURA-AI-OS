@@ -1,0 +1,16 @@
+
+version: '3.9'
+
+services:
+
+  aura:
+
+    build: .
+
+    container_name: aura
+
+    restart: unless-stopped
+
+    ports:
+
+      - "8000:8000"

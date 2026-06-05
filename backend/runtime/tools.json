@@ -1,0 +1,44 @@
+{
+    "browser": {
+        "description": "Web browsing tool",
+        "permissions": [
+            "network"
+        ],
+        "enabled": true
+    },
+    "filesystem": {
+        "description": "Read and write files",
+        "permissions": [
+            "disk"
+        ],
+        "enabled": true
+    },
+    "terminal": {
+        "description": "Execute terminal commands",
+        "permissions": [
+            "shell"
+        ],
+        "enabled": true
+    },
+    "python": {
+        "description": "Python execution runtime",
+        "permissions": [
+            "compute"
+        ],
+        "enabled": true
+    },
+    "github": {
+        "description": "GitHub integration",
+        "permissions": [
+            "network"
+        ],
+        "enabled": true
+    },
+    "docker": {
+        "description": "Docker integration",
+        "permissions": [
+            "container"
+        ],
+        "enabled": true
+    }
+}
